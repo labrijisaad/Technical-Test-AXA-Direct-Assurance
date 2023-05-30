@@ -20,7 +20,7 @@ To set up the necessary dependencies for this project, please follow these steps
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/your-username/data-science-technical-test.git
+git clone https://github.com/labrijisaad/data-science-technical-test.git
 ```
 
 2. Navigate to the project directory:
