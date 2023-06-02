@@ -6,3 +6,5 @@ seaborn
 scikit-learn
 jupyter
 python-dotenv
+plotly
+statsmodels
