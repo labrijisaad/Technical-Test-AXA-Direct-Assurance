@@ -1,0 +1,16 @@
+After carefully reading the work I submitted, I ( on my own :D ) detected that I made some "Reasoning errors" that I will correct later for learning purposes.
+
+Error 1:
+-> I should not use the "Target" column when performing "Feature Engineering" on my data columns. (It is called "Feature Engineering," not "Target Engineering" XD)
+-> The good thing is that the "Feature Engineering" wasn't perfomed ( wasn't asked to do so :D )
+
+Error 2:
+-> When conducting "Data Drift Analysis using statistics," I should compare the distribution of the 'Features and Target' (reference data: Quarter_0) with the distribution of the other 'Features and Target' (Quarter 1, 2, and 3).
+  -> My mistake was that I visually compared the distribution of the periods (1, 2, and 3) with the distribution of the predicted periods (1, 2, and 3).
+
+Error 3:
+-> I didn't correctly use the statistical tests:
+  * Wasserstein distance
+  * Kullback-Leibler divergence
+  * Jensen-Shannon distance
+-> I used those tests only to compare the target variable distribution in different periods, but I should have done the same with the features.
