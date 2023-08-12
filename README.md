@@ -2,6 +2,12 @@
 
 ⭐ This repo holds my solution for the Data Science Technical Test from AXA Direct Assurance's DATA/AI team.
 
+
+## Problem Objective
+
+🚀The primary objective of this project is to train a model using historical data and then tackle the challenge of `data drift in machine learning`. **Data drift** refers to the degradation of model performance when applied to new data. The core goals include visualizing data drift and utilizing statistical methods like Jensen-Shannon divergence and Kolmogorov-Smirnov tests to accurately detect and quantify the extent of data drift.
+
+
 ## Project Structure
 The project is structured as follows:
 
@@ -65,4 +71,9 @@ To get up and running with the project, follow these steps:
     jupyter notebook
     ```
 
-9. **Explore and analyze** by opening the desired notebook from the `notebooks/` directory.
+9. **Select the Relevant Notebook**:
+
+    Open the appropriate notebook from the `notebooks/` directory:
+
+    - `labri_solution.ipynb`: My proposed solution.
+    - `TestTechniqueDerive_Sujet.ipynb`: The notebook with the original problem statement.
