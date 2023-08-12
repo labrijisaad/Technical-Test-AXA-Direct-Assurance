@@ -1,70 +1,68 @@
-# Data Science Technical Test Solution
-This repository contains the solution for the Data Science Technical Test.
+# Data Science Technical Test Solution (AXA Direct Assurance)
 
+⭐ This repo holds my solution for the Data Science Technical Test from AXA Direct Assurance's DATA/AI team.
 
 ## Project Structure
 The project is structured as follows:
 
-* `data/`: This directory contains the necessary data files for the analysis.
+* `data/`: This directory contains the necessary data files for the analysis. (it is excluded from version control using `.gitignore`.)
 * `notebooks/`: This directory contains Jupyter notebooks with the code for the data analysis.
-* `results/`: This directory contains the output files and visualizations generated during the analysis.
-* `src/`: This directory contains any additional source code or scripts used in the analysis.
+* `results/`: This directory contains the output visualizations generated during the analysis.
 * `README.md`: This file provides an overview of the project and instructions on how to reproduce the analysis.
 * `.gitignore`: This file contains the list of files that are ignored by git.
 * `requirements.txt`: This file contains the list of packages that are required to run the analysis.
 * `.env`: This file contains the environment variables used in the analysis.
 
-## Dependencies
-To set up the necessary dependencies for this project, please follow these steps:
+## Getting Started
 
-1. Clone the repository:
+To get up and running with the project, follow these steps:
 
-```shell
-git clone https://github.com/labrijisaad/data-science-technical-test.git
-```
+1. **Clone the repository**:
 
-2. Navigate to the project directory:
+    ```shell
+    git clone https://github.com/labrijisaad/data-science-technical-test.git
+    ```
 
-```shell
-cd data-science-technical-test
-```
+2. **Navigate to the project directory**:
 
-3. Make sure you have Python 3.9 installed on your system.
+    ```shell
+    cd data-science-technical-test
+    ```
 
-4. Create a virtual environment using venv:
+3. **Ensure Python 3.9 is installed**. The required packages are listed in the `requirements.txt` file.
 
-```shell
-python3 -m venv venv
-```
+4. **Create a virtual environment** (highly recommended to maintain project isolation):
 
-5. Activate the virtual environment:
+    ```shell
+    python3 -m venv venv
+    ```
 
-* macOS/Linux:
+5. **Activate the virtual environment**:
 
-```shell
-source venv/bin/activate
-```
+    - macOS/Linux:
 
-* Windows:
+    ```shell
+    source venv/bin/activate
+    ```
 
-```shell
-venv\Scripts\activate
-```
+    - Windows:
 
-6. Install the required dependencies:
+    ```shell
+    venv\Scripts\activate
+    ```
 
-```shell
-pip install -r requirements.txt
-```
+6. **Install dependencies** listed in `requirements.txt`:
 
-7. Place the necessary data files in the `data/` directory.
+    ```shell
+    pip install -r requirements.txt
+    ```
 
-8. Start the Jupyter Notebook server:
+7. **Place the dataset files** within the `data/` directory.
 
-```shell
-jupyter notebook
-```
+8. **Fire up the Jupyter Notebook server**:
 
-9. Open the desired notebook in the notebooks/ directory for analysis.
+    ```shell
+    jupyter notebook
+    ```
 
- > ⚠️ Please note that the dataset files (`data/`) are excluded from version control using `.gitignore` for confidentiality reasons.
+9. **Explore and analyze** by opening the desired notebook from the `notebooks/` directory.
